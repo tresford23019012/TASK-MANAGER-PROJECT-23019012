@@ -54,7 +54,7 @@ function Navbar() {
 const styles = {
   nav: {
     backgroundColor: '#16213e',
-    padding: '1rem 2rem',
+    padding: '1rem',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -62,6 +62,8 @@ const styles = {
     position: 'sticky',
     top: 0,
     zIndex: 100,
+    flexWrap: 'wrap',
+    gap: '0.5rem',
   },
   logo: {
     fontSize: '1.8rem',
@@ -74,8 +76,10 @@ const styles = {
   },
   links: {
     display: 'flex',
-    gap: '1.5rem',
+    gap: '0.5rem',
     alignItems: 'center',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
   },
   link: {
     color: '#8892b0',
