@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #7C83D4;
+  --accent: #a0a8f0;
+  --bg: #1a1a2e;
+  --card: #16213e;
+  --text: #ffffff;
+  --success: #4ecca3;
+  --danger: #ff6b6b;
+  --muted: #8892b0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

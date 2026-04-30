@@ -1,0 +1,3 @@
+echo "node_modules/
+.env
+*.db" > Tresify-task-manager-backend/.gitignore
