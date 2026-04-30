@@ -1,4 +1,4 @@
-const BASE_URL = "https://task-manager-project-23019012-1.onrender.com"
+const BASE_URL = 'https://task-manager-project-23019012-1.onrender.com/api';
 
 const getToken = () => localStorage.getItem('token');
 
