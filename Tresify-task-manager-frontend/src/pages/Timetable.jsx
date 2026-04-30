@@ -13,7 +13,7 @@ const exampleSchedule = {
   'Monday-10:00 AM': { subject: 'Geme', color: '#4ecca3' },
   'Tuesday-9:00 AM': { subject: 'Web Development', color: '#f0a500' },
   'Wednesday-8:00 AM': { subject: 'Operating systems', color: '#7C83D4' },
-  'Wednesday-2:00 PM': { subject: 'Networks', color: '#ff6b6b' },
+  'Wednesday-2:00 PM': { subject: 'Computer Networks', color: '#ff6b6b' },
   'Thursday-11:00 AM': { subject: 'Java', color: '#4ecca3' },
   'Friday-9:00 AM': { subject: 'Alss', color: '#f0a500' },
 };
