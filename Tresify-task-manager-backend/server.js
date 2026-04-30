@@ -15,7 +15,11 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5175', 'http://localhost:5174'],
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:5175',
+    'https://task-manager-project-23019012-ruo4.vercel.app'
+  ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
